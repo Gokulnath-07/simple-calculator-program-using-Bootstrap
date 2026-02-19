@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Calculator</title>
 
-  <!-- Bootstrap CSS -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -19,10 +18,8 @@
 
       <h4 class="text-center mb-3">Calculator</h4>
 
-      <!-- Display -->
       <input type="text" id="display" class="form-control mb-3 text-end" disabled>
 
-      <!-- Buttons -->
       <div class="row g-2">
         <div class="col-3"><button class="btn btn-secondary w-100" onclick="clearDisplay()">C</button></div>
         <div class="col-3"><button class="btn btn-secondary w-100" onclick="appendValue('/')">÷</button></div>
@@ -52,8 +49,6 @@
 
     </div>
   </div>
-
-  <!-- JavaScript -->
   <script>
     let display = document.getElementById("display");
 
